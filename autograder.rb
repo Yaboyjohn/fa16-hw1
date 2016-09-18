@@ -30,7 +30,7 @@ def check_combine_name
 end
 
 def check_blockin_time
-  input = ["1", "2", "3", "4", "5", "10"]
+  input = ['1', '2', '2', '2', '3', '4', '5', '10'] 
   first_output = blockin_time input
   second_output = blockin_time input
   raise "Expected baz to compute 10, got #{first_output} for input #{ input }." unless first_output == 10

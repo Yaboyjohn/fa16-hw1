@@ -10,6 +10,7 @@ class Foobar
       #  new_array.push(num)
     end
     sum = 0
+    a = a.uniq
     a.each do |elem|
       if elem % 2 == 0 && elem < 10
         sum += elem
